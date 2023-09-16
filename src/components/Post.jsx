@@ -20,8 +20,23 @@ export function Post(){
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
                 <p><a href="#">Continuar lendo</a></p>
-                <p><a href="#">#test</a></p>
+                <p>
+                    <p><a href="#">#test</a></p>
+                    <p><a href="#">#rocketseat</a></p>
+                    <p><a href="#">#nlw</a></p>
+                </p>
             </div>
+
+            <form className={styles.commentForm}>
+                <strong>Deixe seu feedback</strong>                
+
+                <textarea 
+                    placeholder="Escreva seu comentário"
+                />
+                <footer>
+                    <button type='submit'>Enviar</button>
+                </footer>
+            </form>
         </article>
     )
 }
